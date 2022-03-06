@@ -1,10 +1,10 @@
 ---
-### PROJET-4 
-### Predictions of energy consumption of the city of Seattle in order to reach its goal of being a carbon neutral city in 2050.
+### PROJET-5
+### Classification of customer profiles of OLIST, an e-commerce site
 ---
 
 <p align="center">
-<img align="center" src="support\seattle.png" style="width: 300px" />
+<img align="center" src="support\olist.png" style="width: 300px" />
 </p>
 
 The City of Seattle is looking at the carbon emissions and energy use of non-residential properties by 2050. We will make predictions of 
@@ -54,6 +54,6 @@ The list of Machine Learning models tested here:
   - Gradient Boosting Regressor
 
 <p align="center">
-<img align="center" src="support\models.png" style="width: 600px" />
+<img align="center" src="support\profile.png" style="width: 600px" />
 </p>
 
