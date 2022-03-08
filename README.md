@@ -32,7 +32,7 @@ There are 5 notebooks in this project.
 
 **Notebook 1 :** Data Cleaning and Exploratory Data Analysis. 
 
-**Notebook 2 and 3:** K-NN algorithm is performed for two different sets of features.
+**Notebook 2|3 :** K-NN algorithm is performed for two different sets of features.
 
 **Notebook 4 :** DBSCAN is tested.
 
