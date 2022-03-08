@@ -36,7 +36,7 @@ There are 5 notebooks in this project.
 
 **Notebook 4 :** DBSCAN is tested.
 
-**Notebook 5 :** Hybride model. In this notebook we mix Hierarchical Clustering and K-NN. This allows us to choose the number of clusters, that is the number **K** in the KNN algorithm, by using the nice picture of hierarchies. Since the K-NN itself gives good results we did not need this method in order to reach a conclusion. However it can be very useful for more large datasets. 
+**Notebook 5 :** Hybride model. In this notebook we mix Hierarchical Clustering and K-NN. This allows us to choose the number of clusters, that is the number **K** in the KNN algorithm, by using the nice picture (which is a dendrogram) of hierarchies. Since the K-NN itself gives good results we did not need this method in order to reach a conclusion. However it can be very useful for more large datasets. 
 
 ---
 We have tested the following unsupervised Machine Learning algorithms here:
