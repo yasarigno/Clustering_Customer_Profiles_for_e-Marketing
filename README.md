@@ -7,51 +7,42 @@
 <img align="center" src="support\olist.png" style="width: 300px" />
 </p>
 
-The City of Seattle is looking at the carbon emissions and energy use of non-residential properties by 2050. We will make predictions of 
+We provide OLIST's e-commerce teams a customer segmentation that they can use on a daily basis for their communication campaigns. The aim is to provide the marketing team an actionable description of customer segmentation and its underlying logic for optimal use. In this project we analyse types of customers through their behavior and personal data. We therefore use unsupervised methods to group customers with similar profiles. The customers has been classified into 8 profiles. 
+We also provide OLIST a maintenance contract proposal based on an analysis of the stability of the classification over time.
 
-- **carbon dioxide (CO2) emissions** and
-- **total energy consumption** of the city of Seattle 
+The figure below shows one of these 8 profiles. In a nutshell, we see that customers Cluster 1 give low review scores. One of the reasons for their dissatisfaction seems to be the delivery delay. We can also say that these users live in cities farther from the seller they shop at. For this customer profile, delivery delay is a sign of unhappiness.
 
-from existing data.
-
-Our mission is to analyze past data, which was carried out in 2015 and 2016, and to implement Machine Learning algorithms to predict future values that have not yet been measured. Since readings are expensive to obtain, our study was carried out without annual consumption readings.
-
-We will first carry out a short exploratory analysis, test different prediction models in order to best respond to the problem and assess the impact of the EnergyStarScore indicator on the performance of these models. 
-
-Thanks to the Python library **FOLIUM** we have marked the building on a map in [this link.](https://yasarigno.github.io/seattle_folium_map.html) 
+<p align="center">
+<img align="center" src="support\profile.png" style="width: 600px" />
+</p>
 
 ---
 Data source:
 
-https://www.kaggle.com/city-of-seattle/sea-building-energy-benchmarking#2015-building-energy-benchmarking.csv
+https://www.kaggle.com/olistbr/brazilian-ecommerce
+
+| DATA  |   |
+|---|---|
+|  number of lines |   119 151 |
+|  number of columns |   30 |
 
 ---
 
-There are 6 notebooks in this project. 
+There are 5 notebooks in this project. 
 
-**Notebook 1 :** Data Cleaning. We clean the dataset and perform a first exploratory data analysis. 
+**Notebook 1 :** Data Cleaning and Exploratory Data Analysis. 
 
-**Notebook 2 :** Exploratory Data Analysis.
+**Notebook 2 and 3:** K-NN algorithm is performed for two different sets of features.
 
-**Notebook 3 :** Feature Engineering. We transform the raw data into features that more accurately represent the problem underlying the predictive model.
+**Notebook 4 :** DBSCAN is tested.
 
-**Notebook 4 :** Machine Learning. We predict carbon dioxide (CO2) emissions using ML models.
-
-**Notebook 5 :** Machine Learning. Prediction of total energy consumptions.
-
-**Notebook 6 :** Machine Learning. We take **EnergyStarScore** into account to see if it increases the performance of the models in Notebook 5.
+**Notebook 5 :** Hybride model. In this notebook we mix Hierarchical Clustering and K-NN. This allows us to choose the number of clusters, that is the number **K** in the KNN algorithm, by using the nice picture of hierarchies. Since the K-NN itself gives good results we did not need this method in order to reach a conclusion. However it can be very useful for more large datasets. 
 
 ---
-The list of Machine Learning models tested here:
-  - Linear Regression
-  - Lasso
-  - Ridge
-  - Elastic Net
-  - SVM
-  - K Neighbors Regressor
-  - Random Forest Regressor
-  - Decision Tree Regressor
-  - Gradient Boosting Regressor
+We have tested the following unsupervised Machine Learning algorithms here:
+  - KNN
+  - DBSCAN
+  - Hierarchical Clustering
 
 <p align="center">
 <img align="center" src="support\profile.png" style="width: 600px" />
