@@ -44,8 +44,3 @@ We have tested the following unsupervised Machine Learning algorithms here:
   - KNN
   - DBSCAN
   - Hierarchical Clustering
-
-<p align="center">
-<img align="center" src="support\profile.png" style="width: 600px" />
-</p>
-
