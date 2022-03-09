@@ -7,10 +7,10 @@
 <img align="center" src="support\olist.png" style="width: 300px" />
 </p>
 
-We provide OLIST's e-commerce teams a customer segmentation that they can use on a daily basis for their communication campaigns. The aim is to provide the marketing team an actionable description of customer segmentation and its underlying logic for optimal use. In this project we analyse types of customers through their behavior and personal data. We therefore use unsupervised methods to group customers with similar profiles. The customers has been classified into 8 profiles. 
+We provide [OLIST](https://olist.com/pt-br/)'s e-commerce teams a customer segmentation that they can use on a daily basis for their communication campaigns. The aim is to provide the marketing team an actionable description of customer segmentation and its underlying logic for optimal use. In this project we analyse types of customers through their behavior and personal data. We therefore use unsupervised methods to group customers with similar profiles. The customers has been classified into 8 profiles. 
 We also provide OLIST a maintenance contract proposal based on an analysis of the stability of the classification over time.
 
-The figure below shows one of these 8 profiles. In a nutshell, we see that customers Cluster 1 give low review scores. One of the reasons for their dissatisfaction seems to be the delivery delay. We can also say that these users live in cities farther from the seller they shop at. For this customer profile, delivery delay is a sign of unhappiness.
+The figure below shows one of these 8 profiles. In a nutshell, we see that customers in Cluster 1 give low review scores. One of the reasons for their dissatisfaction seems to be the delivery delay. We can also say that these users live in cities farther from the seller they shop at. For this customer profile, delivery delay is a sign of unhappiness.
 
 <p align="center">
 <img align="center" src="support\profile.png" style="width: 600px" />
@@ -27,6 +27,7 @@ https://www.kaggle.com/olistbr/brazilian-ecommerce
 |  number of columns |   30 |
 
 ---
+The algorithms that we use in this project are of **unsupervised machine learning** which, in contrast to supervised, involves inferring the patterns within datasets without reference to known, or labeled, outcomes. Although the categories are given in the dataset we do not use them in order to automatize the detection process.
 
 There are 5 notebooks in this project. 
 
