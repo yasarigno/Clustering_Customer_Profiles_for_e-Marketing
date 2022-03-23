@@ -1,6 +1,9 @@
 ---
 ### PROJET-5
 ### Classification of customer profiles of OLIST, an e-commerce site
+
+[Click here](https://yasarigno.github.io/folder/P5_support.pdf) for the presentation file of the project. 
+
 ---
 
 <p align="center">
